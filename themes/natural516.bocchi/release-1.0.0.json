@@ -1,0 +1,13 @@
+{
+  "themeId": "natural516.bocchi",
+  "name": "孤独摇滚",
+  "subtitle": "粉彩少女乐队手账主题",
+  "version": "1.0.0",
+  "themeApi": 1,
+  "minAppVersion": "1.5.3",
+  "packageFile": "natural516.bocchi-1.0.0.pftheme",
+  "packageSize": 48799478,
+  "sha256": "5ae46b1a98d71d3f0cad87202b58ead34a7491754a434aa4b2aa631ed66b2e99",
+  "signingKeyId": "pft-theme-prod-2026-01",
+  "publicKeyFingerprint": "aaca9dd7b2a3e2cf83d1dab8ae14afb77cddedc85313910010b7af83ceabd9d6"
+}
