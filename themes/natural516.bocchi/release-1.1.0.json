@@ -1,0 +1,16 @@
+{
+  "themeId": "natural516.bocchi",
+  "name": "孤独摇滚",
+  "subtitle": "乐队手账风格",
+  "version": "1.1.0",
+  "themeApiVersion": 1,
+  "minAppVersion": "1.6.0",
+  "maxAppVersionExclusive": "2.0.0",
+  "packageFile": "natural516.bocchi-1.1.0.pftheme",
+  "packageSizeBytes": 51815515,
+  "sha256": "51ee74cf07190b97693e52f01a3a5e1596dfe2dab63449728ae13b6ce4378b09",
+  "signingKeyId": "pft-theme-prod-2026-01",
+  "publicKeyFingerprint": "aaca9dd7b2a3e2cf83d1dab8ae14afb77cddedc85313910010b7af83ceabd9d6",
+  "releaseTag": "natural516.bocchi-v1.1.0",
+  "publishedAt": "2026-10-01T17:40:10Z"
+}
