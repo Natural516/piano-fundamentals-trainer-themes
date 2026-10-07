@@ -4,9 +4,9 @@ Personalized visual themes for Piano Fundamentals Trainer
 
 为 [Piano Fundamentals Trainer](https://github.com/Natural516/piano-fundamentals-trainer) 提供可安装的个性化视觉主题，让识谱、和弦、音程等练习拥有不同的视觉风格。
 
-**当前主题：Bocchi（孤独摇滚）1.1.0 · 适配 App 1.6.0**
+**当前主题：Bocchi（孤独摇滚）1.1.0 · 已在 App 1.7.1 验证 · 兼容 App 1.6.0 起、低于 2.0.0**
 
-[下载 Bocchi 1.1.0](https://github.com/Natural516/piano-fundamentals-trainer-themes/releases/download/natural516.bocchi-v1.1.0/natural516.bocchi-1.1.0.pftheme) · [主题 Release](https://github.com/Natural516/piano-fundamentals-trainer-themes/releases/tag/natural516.bocchi-v1.1.0) · [下载安装主应用](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.6.0)
+[下载 Bocchi 1.1.0](https://github.com/Natural516/piano-fundamentals-trainer-themes/releases/download/natural516.bocchi-v1.1.0/natural516.bocchi-1.1.0.pftheme) · [主题 Release](https://github.com/Natural516/piano-fundamentals-trainer-themes/releases/tag/natural516.bocchi-v1.1.0) · [下载安装主应用 1.7.1](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.7.1)
 
 ## Bocchi / 孤独摇滚
 
@@ -18,7 +18,33 @@ Personalized visual themes for Piano Fundamentals Trainer
 
 ## 实际效果
 
-以下画面来自 Piano Fundamentals Trainer **Android 1.6.0**，运行 **Bocchi 1.1.0** 主题的 **Lenovo TB375FC** 横屏实机。练习截图连接 Roland FP-30X，未作答或保存新练习记录。
+以下均为 **Lenovo TB375FC** 横屏实机上的正式 App，使用 **Bocchi 1.1.0** 主题；不同采集批次的应用版本与数据状态分别注明。
+
+### App 1.7.1：回顾练习，找到下一步重点
+
+App 1.7.1 改进了识谱报告，并在练习记录的识谱筛选中提供“识谱分析”入口。你可以查看单次练习的易错音与长思考音，以及最近最多 10 次完整练习的分析；音符按谱面拼写与八度区分。
+
+这些能力由主应用提供，不是新的主题包功能；已有 Bocchi 1.1.0 无需重新下载或导入。报告与分析页沿用应用布局及主题配色，没有新增专属人物插画。切换主题不会改变统计结果。
+
+**练习记录 · 识谱筛选与分析入口**
+
+![App 1.7.1 与 Bocchi 1.1.0：识谱历史与识谱分析入口](docs/screenshots/bocchi-1.1.0-app-1.7.1-sight-history.png)
+
+**单次报告 · 本次易错音与长思考音**
+
+![App 1.7.1 与 Bocchi 1.1.0：识谱单次报告](docs/screenshots/bocchi-1.1.0-app-1.7.1-sight-report.png)
+
+此图来自真实的 10 题自然超时验收，未模拟弹奏；因此没有正确反应用时样本。易错音统计包含超时。
+
+**识谱分析 · 最近完整练习的回顾**
+
+![App 1.7.1 与 Bocchi 1.1.0：识谱分析](docs/screenshots/bocchi-1.1.0-app-1.7.1-sight-analysis.png)
+
+当前真实记录尚未达到逐音分析门槛，所以展示“暂无明显易错音／长思考音”。没有详细音符数据的旧报告不会补造数据，也不会用更早记录补足最近分析窗口。逐音分析仅统计单音题，双音题保留整题结果。
+
+### 主题视觉预览 · App 1.6.0 原始采集
+
+以下五张来自 **Android 1.6.0**，保留原始版本出处。练习截图连接 Roland FP-30X，未作答或保存新练习记录。
 
 ### 首页
 
@@ -44,7 +70,7 @@ Personalized visual themes for Piano Fundamentals Trainer
 
 ## 三步安装
 
-1. 安装兼容的 [Piano Fundamentals Trainer App 1.6.0](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.6.0)。还没有安装？也可以先到 [主应用仓库](https://github.com/Natural516/piano-fundamentals-trainer) 了解功能和设备要求。
+1. 安装当前正式版 [Piano Fundamentals Trainer App 1.7.1](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.7.1)。主题兼容 App 1.6.0 起、低于 2.0.0；还没有安装？也可以先到 [主应用仓库](https://github.com/Natural516/piano-fundamentals-trainer) 了解功能和设备要求。
 2. 从 [Bocchi 1.1.0 Release](https://github.com/Natural516/piano-fundamentals-trainer-themes/releases/tag/natural516.bocchi-v1.1.0) 下载 `natural516.bocchi-1.1.0.pftheme`，不要解压或手工修改。
 3. 在 App 的 **设置 → 导入主题包** 中选择文件，待应用验证、安装后，在显示主题列表中选择 **孤独摇滚 1.1.0** 启用。
 
@@ -57,6 +83,8 @@ Personalized visual themes for Piano Fundamentals Trainer
 | Bocchi / 孤独摇滚 | 1.1.0 | 1.6.0 起，低于 2.0.0 | 当前正式版本 |
 
 App 1.5.3 不能安装 Bocchi 1.1.0；请先升级主应用。
+
+当前 App 正式版为 1.7.1；主题正式版仍为 1.1.0，二者版本号独立。本次仅同步介绍与实机预览，主题包、签名及兼容性元数据未变。
 
 <details>
 <summary>历史版本：Bocchi 1.0.0</summary>

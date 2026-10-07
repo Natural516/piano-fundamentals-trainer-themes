@@ -19,9 +19,11 @@ Piano Fundamentals Trainer 的外部个性化视觉主题。真实画面、用�
 
 1.1.0 在既有首页、识谱与和弦视觉上新增可选的音程视觉能力：Practice Hub 蓝色拼贴卡片和 ACTIVE 外围装饰。不会改变产品逻辑；音程 Preparation、Result、History Detail 没有新增专属 Hero 或人物素材。
 
+已在正式 App 1.7.1 / versionCode 16 中验证加载。App 1.7.1 的识谱报告与 History 识谱分析沿用宿主布局及主题配色；这些是主应用功能，不是新的 theme capability。已有 1.1.0 无需重新导入；主题版本、包字节、签名和兼容范围均保持不变。真实截图见[主题主页](../../README.md#实际效果)。
+
 ## 安装
 
-1. 安装 [Piano Fundamentals Trainer App 1.6.0](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.6.0)（兼容范围：1.6.0 起、低于 2.0.0）。
+1. 安装当前正式版 [Piano Fundamentals Trainer App 1.7.1](https://github.com/Natural516/piano-fundamentals-trainer/releases/tag/v1.7.1)（主题兼容范围仍为 1.6.0 起、低于 2.0.0）。
 2. 下载上述 `.pftheme`，保持文件原样。
 3. 在 App **设置 → 导入主题包** 完成验证与安装，再选择 **孤独摇滚 1.1.0** 启用。
 

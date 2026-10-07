@@ -2,6 +2,26 @@
 
 这些图片是正式应用的真实运行画面，不是设计预览或生成图。
 
+## App 1.7.1 新增预览（2026-10-07）
+
+- 应用：Android 1.7.1 / versionCode 16，正式包 `com.pianofundamentals.trainer`，非 QA 包。
+- 主题：`natural516.bocchi` / 孤独摇滚 1.1.0，原已安装主题保持不变。
+- 设备：Lenovo TB375FC / Android 16，中文，横屏 **2944 × 1840**。
+- 来源：本轮正式发布验收中的原始 `adb exec-out screencap -p` PNG，仅无损复制与重命名，未压缩、缩放、裁切、替字、拼接或重绘。右缘系统悬浮笔工具和滚动条如自然出现则保留。
+- History 图为新增验收记录前的 39 条 / 1713 题。报告图为实际运行完成的 10 题自然超时记录，正确 0 / 错误 0 / 超时 10；没有模拟 MIDI 或伪造答案。该记录将总量变为 40 条 / 1723 题。
+- 分析图为该记录保存后的真实页面：最近最多 10 次完整练习窗口；当前每音样本未达到门槛，所以没有明显易错音或长思考音。旧记录未补造逐音数据。
+- 报告与分析属于 App 1.7.1 新能力，不表示主题 1.1.0 新增专属画作。以下原 1.6.0 截图及其采集/优化/数据保护说明独立保留，不适用于新批次。
+
+| 页面 / 文件 | 原始来源文件 | bytes |
+| --- | --- | ---: |
+| [识谱历史](bocchi-1.1.0-app-1.7.1-sight-history.png) | after-sight-filter.png | 1986762 |
+| [单次报告](bocchi-1.1.0-app-1.7.1-sight-report.png) | rc-single-result.png | 226555 |
+| [识谱分析](bocchi-1.1.0-app-1.7.1-sight-analysis.png) | rc-analysis-new.png | 134699 |
+
+原始 PNG、界面 XML 与发布报告保留在仓库外的 `2026-10-07_1854_Android171Release` 任务目录。该批次不会改变下面 2026-10-02 原截图的出处或历史核对结论。
+
+## App 1.6.0 原始预览（2026-10-02）
+
 - 采集日期：2026-10-02（Asia/Hong_Kong）。
 - 应用：Piano Fundamentals Trainer Android 1.6.0，versionCode 14，正式包 `com.pianofundamentals.trainer`。
 - 主题：`natural516.bocchi` / 孤独摇滚 1.1.0；截图前后均保持原本已启用的 1.1.0，没有重新导入或修改主题包。
